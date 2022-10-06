@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:'Montserrat', sans-serif;
+}
+
+.barra-opaca {
+	position: fixed;
+	inset: 0 0 auto 0;
+	height: var(--height-overlay);
+	z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.barra-laterale {
+    padding-right: 10px;
+    padding-left: 10px;
+	position: fixed;
+	inset: 0 auto 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+	width: 50px;
+	z-index: 20;
+    background-color: black;
+}
+
+.barra-laterale img{
+    padding: 10px;
+    display: flex;
+    width: 50px;
+    cursor: pointer;
+}
+
+#download{
+    width: 45px;
+}
+
+#user{
+    padding: 5px;
+    background-color: lightgray;
+    clip-path: circle();
+}
+
+.contenuto {
+	position: fixed;
+	inset: 0 0 100px 50px;
+}
+.cotrolli {
+	position: fixed;
+	inset: auto 0 0;
+	height: 100px;
+	z-index: 20;
+}
+@media (min-width: 552px) {
+	.sidebar {
+		width: 250px;
+	}
+	.contents {
+		left: 250px
+	}
+}
