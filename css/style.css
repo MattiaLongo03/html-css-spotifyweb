@@ -65,8 +65,21 @@ html{
 
 .contenuto {
 	position: fixed;
-	inset: 0 0 100px 50px;
+	inset: 100px 0 100px 50px;
+    background-color: #141922;
+    color: lightgray;
 }
+
+.testo-top{
+    margin: 10px;
+}
+
+.testo-top span{
+    padding: 3px;
+}
+
+
+
 .cotrolli {
 	position: fixed;
 	inset: auto 0 0;
