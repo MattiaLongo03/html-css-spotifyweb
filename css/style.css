@@ -9,11 +9,27 @@ html{
 }
 
 .barra-opaca {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 	position: fixed;
-	inset: 0 0 auto 0;
+	inset: 0 0 auto 50px;
 	height: var(--height-overlay);
 	z-index: 10;
-    background-color: rgba(0, 0, 0, 0.5);
+    height: 100px;
+    background-color: #080B12;
+    opacity: 95%;
+}
+
+.upgrade{
+    padding: 10px 20px 10px 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.upgrade a{
+    text-decoration: none;
+    color: white;
 }
 
 .barra-laterale {
