@@ -72,10 +72,44 @@ html{
 
 .testo-top{
     margin: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+
 }
 
 .testo-top span{
-    padding: 3px;
+    padding: 7px;
+}
+
+.testo-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.testo-bottom span{
+    padding: 15px;
+}
+
+.container-ascolti{
+    display: flex;
+}
+
+.ascolto{
+    padding: 10px;
+    text-align: center;
+}
+
+.ascolto img{
+    width: 150px;
+}
+
+.ascolto h2{
+    font-size: 15px;
+}
+
+.ascolto p{
+    font-size: 10px;
 }
 
 
