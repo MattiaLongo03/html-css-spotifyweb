@@ -94,7 +94,6 @@ html{
 .canzone{
     display: flex;
     padding: 10px;
-    width: 100px;
     color: grey;
 }
 
@@ -116,4 +115,75 @@ html{
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.controls{
+    margin: 30px;
+    width: 184px;
+    color: white;
+}
+
+.durata{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.durata span{
+    padding: 10px;
+    font-size: 10px;
+}
+
+.barra{
+    display: flex;
+    align-items: center;
+    background-color: #5A5A5A;
+    width: 150px;
+    height: 5px;
+    border-radius: 20px;
+}
+
+.barra-grigia{
+    width: 30px;
+    height: 5px;
+    background-color: lightgrey;
+    border-radius: 20px;
+}
+
+.icone-controlli{
+    display: flex;
+    justify-content: space-between;
+}
+
+.volume{
+    width: 184px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.icone-volume{
+    display: flex;
+    width: 70px;
+    padding: 10px;
+}
+
+.icone-volume i{
+    padding: 3px;
+}
+
+.barra-volume{
+    margin-left: 20px;
+    background-color: #5A5A5A;
+    width: 50px;
+    height: 5px;
+    border-radius: 20px;
+}
+
+.barra-grigia-volume{
+    width: 10px;
+    height: 5px;
+    background-color: lightgrey;
+    border-radius: 20px;
 }
